@@ -21,6 +21,16 @@
   "projects": {
     "api": {
       "tags": []
+    },
+    "next-app": {
+      "tags": []
+    },
+    "next-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["next-app"]
+    },
+    "shared-types": {
+      "tags": []
     }
   }
 }
